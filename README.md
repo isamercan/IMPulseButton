@@ -17,7 +17,7 @@ To integrate TransitionButton into your Xcode project using CocoaPods, specify i
 
     use_frameworks!
     
-    pod 'TransitionButton'
+    pod 'IMPulseButton'
 
 Then, run the following command:
 
@@ -31,7 +31,7 @@ Customise your button by setting the properties from the Interface Builder.
 
 `IMPulseButton`  is a subclass of  `UIButton`. In addition to all what  `UIButton`  provides.  `IMPulseButton`  has one main methods :  
 
-- `myButton.setupInterfaceIMPulseButton(title: String, fullRounded: Bool, animationEnabled: <Bool, action: () -> Void)` setup interface the button 
+- `yourButton.commonInit(title: String, fullRounded: Bool, animationEnabled: Bool, action: () -> Void)` setup interface the button 
     
     -   `title`: the title of the button.
     -   `fullRounded`: revert the button to the original state after a delay to give opportunity to custom transition.
